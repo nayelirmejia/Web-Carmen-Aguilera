@@ -1,0 +1,247 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+}
+
+/*link del header*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 70px;
+    background-color: #fff;
+    align-items: center;
+    padding: 10%;
+}
+
+/*es la linea peach en el header*/
+.peach{
+    background-color: rgba(250, 175, 175, 1);
+    color: rgba(250, 175, 175, 1);
+    
+}
+
+.videos{
+  background: #FFF8FB;
+ 
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.logo img{
+    height: 124px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+/*cambia de color*/
+nav a:hover{
+    color:#9f3f32 ;
+}
+
+.contenedor-icono i{
+    font-size: 30px;
+}
+
+/* Definimos el color inicial */
+.cambioColor {color:rgb(0, 0, 0);}
+/* Definimos el color al pasar el mouse por encima */
+.cambioColor:hover {color: #9f3d32;}
+
+.linea {
+    height:1px;
+    border:none;
+    color: #d1d1d1;
+    background-color:#333;
+}
+
+.titulostyle{
+color: var(--cinamon, #9F3D32);
+font-size:25px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+}
+
+
+.txttitulo{
+    color: var(--brunette, #59341E);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.txtsubtitulo{
+    color: var(--brunette, #9F3D32);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.txtcard{
+  color: var(--brunette, #9F3D32);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.backcard{
+  background: rgba(217, 217, 217, 0.30);
+}
+
+.binetacolor{
+    color:var(--peach, #faafaf) ;
+}
+ 
+.txtcontenido{
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.resaltarcolor{
+    color: var(--cinamon, #9F3D32);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.servicio{
+    border-radius: 32px;
+    background: #FFF1F8;
+
+    
+}
+
+.fotoservicio{
+    border-radius: 37px;
+    background: url(<path-to-image>), 
+    lightgray -1.111px 1.233px / 100% 154.471% 
+    no-repeat, 
+    #D9D9D9;
+}
+
+.contactoinicio{
+    border-radius: 24px;
+    border: 2px solid var(--cinamon, #9F3D32);
+}
+
+/*btn agenda*/
+.btnagenda { 
+    color: #343434; 
+    background-color: #FAAFAF; 
+    border-color: #FAAFAF; 
+    border-radius: 81px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 213px;
+    height: 59px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+   
+  .btnagenda:hover, 
+  .btnagenda:focus, 
+  .btnagenda:active, 
+  .btnagenda.active, 
+  .open .dropdown-toggle.btnagenda { 
+    color: #343434; 
+    background-color: #fff1f8; 
+    border-color: #FAAFAF; 
+  } 
+   
+  .btnagenda:active, 
+  .btnagenda.active, 
+  .open .dropdown-toggle.btnagenda { 
+    background-image: none; 
+  } 
+   
+  .btnagenda.disabled, 
+  .btnagenda[disabled], 
+  fieldset[disabled] .btnagenda, 
+  .btnagenda.disabled:hover, 
+  .btnagenda[disabled]:hover, 
+  fieldset[disabled] .btnagenda:hover, 
+  .btnagenda.disabled:focus, 
+  .btnagenda[disabled]:focus, 
+  fieldset[disabled] .btnagenda:focus, 
+  .btnagenda.disabled:active, 
+  .btnagenda[disabled]:active, 
+  fieldset[disabled] .btnagenda:active, 
+  .btnagenda.disabled.active, 
+  .btnagenda[disabled].active, 
+  fieldset[disabled] .btnagenda.active { 
+    background-color: #FAAFAF; 
+    border-color: #FAAFAF; 
+  } 
+   
+  .btnagenda .badge { 
+    color: #FAAFAF; 
+    background-color: #343434; 
+  }
+
+  .acercademi{
+    border-radius: 24px;
+    background: #FAF8F8;
+
+  }
+
+  .txtacercademi{
+    color: #000;
+    text-align: center;
+    font-size: 27px;
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 261px;
+    height: 48px;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  .promesa{
+    border-radius: 16px;
+    background: #FAE1ED;
+    width: 620px;
+    height: 90px;
+    flex-shrink: 0;
+    text-align: center;
+    
+        
+  }
+
+  .formulario{
+    border-radius: 80px;
+    border-color: #FAAFAF;
+  }
+
+  .politicadeprivacidad{
+    color: #FAAFAF;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .input{
+    border-color: #FAAFAF;
+  }
